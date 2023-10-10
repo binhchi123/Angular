@@ -1,0 +1,145 @@
+.items ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.items ul li {
+    display: inline-flex;
+    margin: 0 18px;
+}
+
+.del {
+    margin: auto 0;
+}
+
+.cir {
+    color: gray;
+}
+
+.item-title a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sale-price {
+    color: red;
+    font-weight: 500;
+}
+
+.price {
+    text-decoration: line-through;
+    color: gray;
+    font-weight: 500;
+}
+
+.btn-fake {
+    border: none;
+    padding: 6px 0;
+    width: 30px;
+    border: 1px solid grey;
+}
+
+.inp input {
+    padding: 6px 0;
+    border: 1px solid black;
+    width: 40px;
+    text-align: center;
+}
+
+.inp .left {
+    margin-right: 0px;
+}
+
+.inp .right {
+    margin-left: 0px;
+}
+
+.tong {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mon {
+    font-weight: bold;
+}
+
+.pay {
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: #a00000;
+}
+
+.return {
+    text-align: center;
+}
+
+.return a {
+    text-decoration: none;
+    color: black;
+}
+
+.gach {
+    width: 3px;
+    height: 30px;
+    background-color: black;
+}
+
+.voucher span {
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.ma {
+    width: 310px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    box-shadow: 0px 1px 10px 1px gray;
+}
+
+.gach-do {
+    width: 12px;
+    height: 119px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    background-color: #a00000;
+}
+
+.money {
+    color: #a00000;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto 20px;
+}
+
+.right-ma {
+    margin-left: 15px;
+}
+
+.right-ma .free {
+    font-weight: bold;
+}
+
+.right-ma .ship {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.right-ma a {
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 2px 10px;
+    position: absolute;
+    top: 61%;
+    right: 3%;
+    font-size: 13px;
+}
+
+.right-ma:hover a {
+    background-color: #a00000;
+}

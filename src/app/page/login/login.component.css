@@ -1,0 +1,65 @@
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.login {
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    left: 25%;
+    right: 0;
+    top: 30%;
+}
+
+.login legend {
+    text-align: center;
+    font-weight: 600;
+}
+
+.log {
+    background-color: #a00000;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+.gog-fb {
+    text-align: center;
+    display: block;
+}
+
+.google {
+    background-color: #CF4332;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.facebook {
+    background-color: #4064ac;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    font-size: 14px;
+}
+
+.reg-pass {
+    text-align: center;
+}
+
+.reg-pass a {
+    color: black;
+    text-decoration: none;
+}
+
+.reg-pass:hover a {
+    color: #a00000;
+}

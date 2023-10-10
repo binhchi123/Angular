@@ -1,0 +1,110 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "Giày Nike"
+        },
+        {
+            "id": 2,
+            "name": "Giày Adidas"
+        },
+        {
+            "id": 3,
+            "name": "Giày MLB"
+        },
+        {
+            "id": 4,
+            "name": "Giày Puma"
+        },
+        {
+            "id": 5,
+            "name": "Giày Fila"
+        },
+        {
+            "id": 6,
+            "name": "Giày Khác"
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "name": "Giày Nike Air Jordan 1 Low Lucky Green DC0774-304",
+            "img": "assets/img/nike1.jpg",
+            "price": "3,550,000",
+            "sale": "2,990,000",
+            "category_id": "1"
+        },
+        {
+            "id": 2,
+            "name": "Giày Nike Air Force 1 Shadow ‘Infinite Lilac’ CU8591-103",
+            "img": "assets/img/nike2.jpg",
+            "price": "3,990,000",
+            "sale": "3,190,000",
+            "category_id": "1"
+        },
+        {
+            "id": 3,
+            "name": "Giày Nike Air Jordan 1 Low W Red Black DC0774-160",
+            "img": "assets/img/nike3.jpg",
+            "price": "4,550,000",
+            "sale": "3,390,000",
+            "category_id": "1"
+        },
+        {
+            "id": 4,
+            "name": "Giày Nike Air Max SC ‘White Black’ CW4555-102",
+            "img": "assets/img/nike4.jpg",
+            "price": "2,500,000",
+            "sale": "1,850,000",
+            "category_id": "1"
+        },
+        {
+            "id": 5,
+            "name": "Giày Nike Air Force 1 ’07 White Gum DJ2739-100",
+            "img": "assets/img/nike5.jpg",
+            "price": "3,650,000",
+            "sale": "3,050,000",
+            "category_id": "1"
+        },
+        {
+            "id": 6,
+            "name": "Giày Nike Air Jordan 1 Low GS ‘Court Purple’ 553560-500",
+            "img": "assets/img/nike6.jpg",
+            "price": "5,350,000",
+            "sale": "3,990,000",
+            "category_id": "1"
+        },
+        {
+            "id": 7,
+            "name": "Giày Nike Air Force 1 GS White Pink Glaze CT3839-104",
+            "img": "assets/img/nike7.jpg",
+            "price": "2,990,000",
+            "sale": "2,550,000",
+            "category_id": "1"
+        },
+        {
+            "id": 8,
+            "name": "Giày Nike Air Force 1 Low '07 LV8 40th Anniversary White",
+            "img": "assets/img/nike8.jpg",
+            "price": "3,550,000",
+            "sale": "3,090,000",
+            "category_id": "1"
+        },
+        {
+            "id": 9,
+            "name": "Giày Nike Air Force 1 Low 'White Taupe' DR9867-100",
+            "img": "assets/img/nike9.jpg",
+            "price": "2,990,000",
+            "sale": "2,590,000",
+            "category_id": "1"
+        },
+        {
+            "id": 10,
+            "name": "Giày Nike Air Force 1 Low Catechu (W) CZ0269-101",
+            "img": "assets/img/nike10.jpg",
+            "price": "2,550,000",
+            "sale": "0",
+            "category_id": "1"
+        }
+    ]
+}

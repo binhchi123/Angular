@@ -1,0 +1,219 @@
+.prefooter {
+    background-color: #a00000;
+    padding: 15px 0px;
+    position: relative;
+}
+
+.prefooter::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: white;
+    bottom: 0px;
+    left: 5%;
+}
+
+.text {
+    color: white;
+    text-transform: uppercase;
+}
+
+.input input {
+    width: 315px;
+    padding: 8px 10px;
+    border: none;
+    border: 1px solid white;
+}
+
+.input button {
+    padding: 9px 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.social ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.tw {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #008FE5;
+}
+
+.tk {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #000;
+}
+
+.ins {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.fb {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #4267B3;
+}
+
+.footer {
+    background: #202020;
+}
+
+.footer h4 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.icon ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.icon ul li {
+    margin-bottom: 5px;
+}
+
+.icon ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon-cs ul {
+    color: white;
+}
+
+.icon-cs ul li {
+    margin-bottom: 5px;
+}
+
+.icon-cs ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon-cs ul li:hover a {
+    color: #a00000;
+}
+
+.icon-hd ul {
+    color: white;
+}
+
+.icon-hd ul li {
+    margin-bottom: 5px;
+}
+
+.icon-hd ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.icon-hd ul li:hover a {
+    color: #a00000;
+}
+
+.img-fp {
+    position: relative;
+}
+
+.ft img {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    border: 2px solid white;
+}
+
+.ft a {
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 30%;
+}
+
+.ft span {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 25%;
+    left: 30%;
+}
+
+.fbsq {
+    color: #4267B3;
+    background: white;
+}
+
+.like {
+    position: absolute;
+    background-color: white;
+    border-radius: 2px;
+    bottom: 10%;
+    left: 7%;
+    padding: 3px;
+}
+
+.like a {
+    text-decoration: none;
+    color: black;
+}
+
+.like span {
+    color: black;
+    text-decoration: none;
+}
+
+.she {
+    color: grey;
+    background: white;
+}
+
+.share {
+    background-color: white;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    padding: 3px;
+}
+
+.share a {
+    text-decoration: none;
+    color: black;
+}
+
+.share span {
+    color: black;
+    text-decoration: none;
+}
+
+.last-footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}

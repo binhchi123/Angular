@@ -1,0 +1,82 @@
+<app-header></app-header>
+<main>
+    <div class="container mb-5">
+        <div class="text">
+            <p>Trang chủ / Giỏ hàng</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-9 items">
+                <h4>Giỏ hàng:</h4>
+                <hr>
+                <ul *ngFor="let item of listCart">
+                    <li>
+                        <div class="del">
+                            <a href="" (click)="delete(item.id)" class="mr-2"><i
+                                    class="fa-solid fa-circle-xmark cir"></i></a>
+                        </div>
+                        <div class="item-img mr-3">
+                            <img src="{{item.img}}" alt="" width="80px">
+                        </div>
+                        <div class="item-title">
+                            <a href="">{{item.name}}</a>
+                            <div class="item-option">
+                                <span class="sale-price mr-3">{{item.sale}}</span>
+                                <span class="price">{{item.price}}</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inp mt-3 mb-4">
+                            <button class="btn-fake left" id="tru" (click)="updateCart(item,$event)"
+                                (click)="updateCart(item,$event)">-</button>
+                            <input type="text" name="" id="kq" value="{{item.quantity}}">
+                            <button class="btn-fake right" id="cong" (click)="updateCart(item,$event)"
+                                (click)="updateCart(item,$event)">+</button>
+                        </div>
+                    </li>
+                    <li><span class="sale-price">{{item.sale}}</span></li>
+                </ul>
+
+                <div class="voucher row ml-0 mt-5">
+                    <div class="gach"></div>
+                    <h6><span>MÃ GIẢM GIÁ</span></h6>
+                </div>
+                <div class="ma row ml-0 mt-3">
+                    <div class="gach-do"></div>
+                    <p class="money">35k</p>
+                    <div class="right-ma mt-2">
+                        <span class="free">Miễn Phí Vận Chuyển</span>
+                        <p>Đơn hàng từ 5000k</p>
+                        <span>Mã: <span class="ship">FREESHIP</span></span>
+                        <p>HSD: 31/12/2023</p>
+                        <a href="">Sao chép mã</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="cart">
+                    <h3>Thông tin đơn hàng</h3>
+                    <hr>
+                    <div class="tong">
+                        <span class="mon">Tổng tiền:</span>
+                        <span class="sale-price">3,000,000</span>
+                    </div>
+                    <hr>
+                    <h6>Ghi chú đơn hàng</h6>
+                    <form action="">
+                        <div class="form-group">
+                            <textarea class="form-control" name="" id="" rows="3" placeholder="Ghi chú"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control"
+                                placeholder="Nhập mã khuyến mại (nếu có)" aria-describedby="helpId">
+                        </div>
+                        <button type="submit" class="form-control pay mb-4">THANH TOÁN NGAY</button>
+                    </form>
+                    <p class="return"><a href=""><i class="fa-solid fa-left-long"></i>Tiếp tục mua hàng</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

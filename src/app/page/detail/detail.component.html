@@ -1,0 +1,70 @@
+<app-header></app-header>
+<main>
+    <div class="container mb-5">
+        <div class="text">
+            <p>Trang chủ / {{product.name}}</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 anh">
+                <img src="{{product.img}}" alt="">
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <h2>{{product.name}}</h2>
+                <span class="sale-price">{{product.sale}}</span>
+                <span class="price">{{product.price}}</span>
+                <div class="inp mt-3 mb-4">
+                    <button class="btn-fake left" id="tru">-</button>
+                    <input type="text" name="" id="kq" value="1">
+                    <button class="btn-fake right" id="cong">+</button>
+                    <button type="submit" class="add-cart" (click)="addToCart(product)">Thêm giỏ hàng</button>
+                    <button type="submit" class="buy">Mua ngay</button>
+                </div>
+                <div class="row ship">
+                    <div class="col-lg-4">
+                        <img src="assets/img/ship1.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/img/ship2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/img/ship3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="ma row ml-0">
+                    <div class="gach-do"></div>
+                    <p class="money">35k</p>
+                    <div class="right-ma mt-2">
+                        <span class="free">Miễn Phí Vận Chuyển</span>
+                        <p>Đơn hàng từ 5000k</p>
+                        <span>Mã: <span class="ship">FREESHIP</span></span>
+                        <p>HSD: 31/12/2023</p>
+                        <a href="">Sao chép mã</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="menu">
+            <ul>
+                <li><a href="" class="active">Mô tả</a></li>
+                <li><a href="">Thông tin bổ sung</a></li>
+                <li><a href="">Đánh giá(0)</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <p>{{product.name}}</p>
+            <p>Thương hiệu: {{product.category_id}}</p>
+            <p>Mã sản phẩm: FY2149</p>
+            <p>Chất liệu: Vải</p>
+            <p>Cam kết chính hãng 100%</p>
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

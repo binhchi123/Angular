@@ -1,0 +1,44 @@
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.register {
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    left: 25%;
+    right: 0;
+    top: 30%;
+}
+
+.register legend {
+    text-align: center;
+    font-weight: 600;
+}
+
+.reg {
+    background-color: #a00000;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.regis {
+    text-align: center;
+}
+
+.regis a {
+    color: black;
+    text-decoration: none;
+}
+
+.regis:hover a {
+    color: #a00000;
+}
